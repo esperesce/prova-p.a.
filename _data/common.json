@@ -1,0 +1,16 @@
+{
+  "siteName": "Circolo Ippico Passione Assoluta",
+  "footerText": "&copy; 2024 Circolo Ippico Passione Assoluta. Tutti i diritti riservati.",
+  "nav": [
+    { "text": "Home", "href": "index.html" },
+    { "text": "Chi Siamo", "href": "chi-siamo.html" },
+    { "text": "Istruttori", "href": "istruttori.html" },
+    { "text": "Scuola & Dressage", "href": "scuola-dressage.html" },
+    { "text": "Servizi", "href": "servizi.html" },
+    { "text": "Eventi", "href": "eventi.html" },
+    { "text": "Contatti", "href": "contatti.html" }
+  ],
+  "social": {
+    "facebook": "https://it-it.facebook.com/CircoloIppicoPassioneAssoluta/"
+  }
+}

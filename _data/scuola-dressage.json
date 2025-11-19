@@ -1,0 +1,14 @@
+{
+    "base": {
+        "title": "Scuola di Equitazione",
+        "body": "La nostra scuola offre corsi per imparare o perfezionare la tecnica equestre. Accogliamo allievi di ogni livello, offrendo un percorso formativo completo che va dalla gestione del cavallo alla monta in sella."
+    },
+    "dressage": {
+        "title": "Specializzazione Dressage",
+        "body": "Il Dressage è la nostra passione principale. Offriamo lezioni individuali e preparazione agonistica fino ai massimi livelli. Curiamo ogni dettaglio dell'assetto e della comunicazione con il cavallo per raggiungere l'armonia perfetta."
+    },
+    "pony": {
+        "title": "Pony Club & Games",
+        "body": "Per i più piccoli, il Pony Club è il luogo ideale per iniziare. Attraverso i Pony Games, i bambini imparano a montare divertendosi, sviluppando coordinazione e spirito di squadra in un ambiente sicuro."
+    }
+}

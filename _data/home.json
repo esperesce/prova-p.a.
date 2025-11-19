@@ -1,0 +1,29 @@
+{
+    "hero": {
+        "title": "Passione, Eleganza, Natura",
+        "subtitle": "L'eccellenza del Dressage e la gioia del Pony Club a San Colombano al Lambro.",
+        "cta": "Scopri i Corsi",
+        "ctaLink": "scuola-dressage.html"
+    },
+    "mission": {
+        "title": "La Nostra Missione",
+        "body": "Ci guida una Passione Assoluta per l'equitazione e il dressage, vissuti in armonia con i cavalli, i pony e la natura. Il nostro obiettivo è condividere questi valori offrendo un ambiente professionale e accogliente, una struttura dove sport e benessere si incontrano per farvi vivere serenamente il vostro amore per i cavalli."
+    },
+    "services": [
+        {
+            "title": "Scuola di Equitazione",
+            "desc": "Corsi per imparare o perfezionare la tecnica, con focus sul Dressage fino ai massimi livelli.",
+            "link": "scuola-dressage.html"
+        },
+        {
+            "title": "Pensione Cavalli",
+            "desc": "Moderna scuderia con ampi box, maneggio coperto e spaziosi paddock.",
+            "link": "servizi.html"
+        },
+        {
+            "title": "Pony Club & Grest",
+            "desc": "Pony Games e settimane estive per ragazzi dai 7 ai 18 anni.",
+            "link": "eventi.html"
+        }
+    ]
+}

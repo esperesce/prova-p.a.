@@ -1,0 +1,15 @@
+{
+    "title": "Il Nostro Team",
+    "list": [
+        {
+            "name": "Giuseppe Utili",
+            "role": "Istruttore e Responsabile Tecnico",
+            "desc": "Guida la scuola di equitazione e la preparazione agonistica. Segue gli allievi nel perfezionamento della tecnica equestre, portandoli fino al più alto livello agonistico nel Dressage."
+        },
+        {
+            "name": "Luana Utili",
+            "role": "Istruttore Pony Club",
+            "desc": "Gestisce le attività per i più piccoli e il Pony Club. Organizza i Pony Games e i Grest estivi, creando un ambiente divertente e formativo per ragazzi e ragazze."
+        }
+    ]
+}

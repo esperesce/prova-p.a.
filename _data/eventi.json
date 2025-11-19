@@ -1,0 +1,14 @@
+{
+    "grest": {
+        "title": "Grest Estivi (7-18 anni)",
+        "body": "Durante le vacanze scolastiche, organizziamo bellissimi Grest estivi di una o due settimane. Ragazzi e ragazze dai 7 ai 18 anni possono vivere un'esperienza unica a contatto con la natura e i coetanei."
+    },
+    "party": {
+        "title": "Eventi Sociali",
+        "body": "Il circolo è un luogo di aggregazione. Organizziamo momenti di incontro per condividere la nostra passione, dalle gare sociali alle feste in scuderia."
+    },
+    "gita": {
+        "title": "Gita a Cavallo",
+        "body": "Stacca dalla città e immergiti nelle colline di San Colombano. Le nostre gite a cavallo offrono puro relax tra boschi e vigneti storici. Un’esperienza sicura e rigenerante a due passi da Milano, adatta a tutti: dai principianti assoluti ai cavalieri esperti."
+    }
+}

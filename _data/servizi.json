@@ -1,0 +1,17 @@
+{
+    "pensione": {
+        "title": "Pensione Cavalli",
+        "body": "I nostri clienti possono affidarci i loro cavalli sapendo che saranno trattati con la massima cura.",
+        "features": [
+            "Moderna scuderia con ampi box",
+            "Maneggio coperto per l'allenamento tutto l'anno",
+            "Campo esterno in sabbia",
+            "Spaziosi paddock per il relax quotidiano",
+            "Gestione professionale e attenta"
+        ]
+    },
+    "commerciale": {
+        "title": "Servizi Aggiuntivi",
+        "body": "Oltre alla pensione e alla scuola, offriamo consulenza per l'acquisto di cavalli e supporto tecnico per la gestione sportiva del binomio."
+    }
+}
