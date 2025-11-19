@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: TUO_NOME_UTENTE_GITHUB/NOME_REPOSITORY # Placeholder da far compilare all'utente
   branch: main
 
 media_folder: "assets"
