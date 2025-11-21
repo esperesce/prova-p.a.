@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: TUO_NOME_UTENTE_GITHUB/NOME_REPOSITORY # Placeholder da far compilare all'utente
+  repo: esperesce/prova-p.a.
   branch: main
+  base_url: https://oauth-passioneassoluta-iqu2.vercel.app
+  auth_endpoint: api/auth
 
 media_folder: "assets"
 public_folder: "assets"
