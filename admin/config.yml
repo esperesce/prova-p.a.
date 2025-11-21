@@ -2,7 +2,7 @@ backend:
   name: github
   repo: esperesce/prova-p.a.
   branch: main
-  base_url: https://oauth-passioneassoluta.vercel.app/
+  base_url: https://oauth-passioneassoluta-iqu2.vercel.app
   auth_endpoint: api/auth
 
 media_folder: "assets"

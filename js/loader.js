@@ -142,6 +142,18 @@ async function loadPageData(pageId) {
                 if (assocList && data.association.items) {
                     assocList.innerHTML = data.association.items.map(item => `<li>${item}</li>`).join('');
                 }
+
+                if (data.video) {
+                    const videoContainer = document.getElementById('video-container');
+                    if (videoContainer) {
+                        // Convert watch URL to embed URL
+                        const videoId = data.video.split('v=')[1];
+                        const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+                        videoContainer.innerHTML = `
+                            <iframe width="100%" height="400" src="${embedUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></iframe>
+                        `;
+                    }
+                }
                 break;
 
             case 'istruttori':
