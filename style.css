@@ -1,0 +1,305 @@
+/* 
+   Circolo Ippico Passione Assoluta
+   Design System: Forest Green & Cream
+*/
+
+:root {
+    /* Palette */
+    --color-primary: #2a402b;
+    /* Forest Green */
+    --color-secondary: #1e2e1f;
+    /* Darker Green */
+    --color-accent: #C5A059;
+    /* Gold */
+    --color-text: #333333;
+    /* Dark Grey */
+    --color-bg: #fdfcf7;
+    /* Cream */
+    --color-white: #ffffff;
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
+    --line-height-body: 1.8;
+}
+
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: var(--line-height-body);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+    text-align: center;
+}
+
+/* Layout Utilities */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.bg-cream {
+    background-color: #f4f4f4;
+}
+
+/* Slightly darker cream for contrast */
+
+/* Images */
+.rounded-shadow {
+    width: 100%;
+    height: 300px;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: var(--color-accent);
+}
+
+/* Components */
+.btn {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 0.8rem 1.8rem;
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--color-secondary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.card {
+    background: var(--color-white);
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+    flex: 1;
+    /* Allow cards to grow */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 4rem 0 2rem;
+    font-family: var(--font-body);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.footer-col h4 {
+    color: var(--color-bg);
+    font-family: var(--font-heading);
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-col a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.footer-col a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+/* =========================================
+   DESKTOP STYLES (min-width: 768px)
+   ========================================= */
+@media (min-width: 768px) {
+
+    /* Typography */
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .py-5 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    /* Grid / Layouts */
+    .grid-2 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* Alternating Layout Logic */
+    .alt-layout {
+        flex-direction: row-reverse;
+    }
+
+    .grid-2>div {
+        flex: 1;
+    }
+
+    .grid-3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* Allow wrapping if needed */
+        justify-content: center;
+        /* Center items if fewer than 3 */
+    }
+
+    .grid-3>div {
+        flex: 1;
+        min-width: 300px;
+        /* Ensure they don't get too small */
+        max-width: 400px;
+        /* Prevent them from stretching too wide if only 1 */
+    }
+
+    /* Navigation */
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background: none;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 0 0 0 2.5rem;
+    }
+
+    .nav-links a {
+        font-size: 0.9rem;
+        padding: 0;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .footer-col p {
+        text-align: left;
+    }
+}
